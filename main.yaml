@@ -1,5 +1,5 @@
 - name: configure {{ component}}
   hosts: "{{ component }}"
   become: yes
-  roles:
+  roles: # By default it checks for the role in the roles directory of the current directory. If not found, it checks in the roles path mentioned in ansible.cfg
   - "{{ component }}"
