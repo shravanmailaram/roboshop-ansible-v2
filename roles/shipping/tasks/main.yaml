@@ -1,0 +1,23 @@
+- name: application setup
+  include_role:
+    name: common
+    tasks_from: app-setup
+
+- name: install java
+  include_role:
+    name: common
+    tasks_from: java
+
+- name: systemd setup
+  include_role:
+    name: common
+    tasks_from: systemd-setup
+
+- name: restart application
+  include_role:
+    name: common
+    tasks_from: restart
+
+
+  
+ 
