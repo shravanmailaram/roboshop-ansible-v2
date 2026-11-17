@@ -1,7 +1,7 @@
 - name: print variables
   debug:
     msg:
-      - "COURSE: {{ course }}, DURATION: {{ duration }}"
+      - "COURSE: {{ course }}, DURATION: {{ duration }}, TRAINER: {{ trainer }}"
 
 - name: application setup
   include_role:
