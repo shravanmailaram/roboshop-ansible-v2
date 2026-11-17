@@ -5,3 +5,12 @@ ansible_password: "{{ vault_ansible_password }}"
 mysql_root_password: "{{ vault_mysql_root_password }}"
 rabbitmq_user: "{{ vault_rabbitmq_user }}"
 rabbitmq_password: "{{ vault_rabbitmq_password }}"
+mongodb_host: mongodb.dopsaws.online
+redis_host: redis.dopsaws.online
+rabbitmq_host: rabbitmq.dopsaws.online
+mysql_host: mysql.dopsaws.online
+catalogue_host: catalogue.dopsaws.online
+user_host: user.dopsaws.online
+cart_host: cart.dopsaws.online
+shipping_host: shipping.dopsaws.online
+payment_host: payment.dopsaws.online
