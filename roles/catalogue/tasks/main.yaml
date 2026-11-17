@@ -13,10 +13,6 @@
     name: common
     tasks_from: systemd-setup
 
-
-
-
-
 - name: copy mongo repo
   copy:
     src: mongo.repo
